@@ -1,0 +1,44 @@
+.news-container .card-title {
+  background: rgba(0, 0, 0, 0.7);
+}
+.progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  z-index: 1;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.news-container .grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-flow: dense;
+}
+
+.theme{
+  padding-top: 18px;
+}
+
+.header .brand-logo {
+  position: static;
+  color: #ffff;
+  
+}
+
+.header .brand-logo {
+  font-size: 1.5rem;
+}

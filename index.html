@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <title>News</title>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+  <nav class="header blue lighten-2">
+    <div class="nav-wrapper">
+      <div lass="container d-flex align-items-center">
+        <div class="logo d-flex align-items-center ">
+          <i class="large material-icons mx-auto">thumb_down</i>
+          <a href="#" class="brand-logo mx-auto">World News</a>
+          <i class="large material-icons mx-auto">thumb_down</i>
+
+          <a href="#" class="brand-logo mx-auto">World News</a>
+
+          <i class="large material-icons mx-auto">thumb_up</i>
+          <a href="#" class="brand-logo mx-auto">World News</a>
+          <i class="large material-icons mx-auto">thumb_down</i>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="search-controls">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card">
+            <form name="newsControls">
+              <div class="card-content">
+                <span class="card-title">Search news</span>
+                <div class="input-field">
+                  <select name="country" id="country">
+                    <option value="ru">Russia</option>
+                    <option value="us">United States</option>
+                  </select>
+                  <label>Choose country</label>
+                </div>
+                <div class="input-field theme">
+                  <select name="theme" id="theme">
+                    <option value="technology">Technology</option>
+                    <option value="science">Science</option>
+                    <option value="sport">Sport</option>
+                  </select>
+                  <label class="theme">Choose theme</label>
+                </div>
+                <div class="input-field">
+                  <input type="text" id="autocomplete-input" class="autocomplete" name="search" />
+                  <label for="autocomplete-input">Search</label>
+                </div>
+              </div>
+              <div class="card-action">
+                <button class="btn waves-effect waves-light" type="submit" name="action">
+                  Search
+                  <i class="material-icons right">search</i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="news-container">
+    <div class="container">
+      <div class="row grid-container"></div>
+    </div>
+  </div>
+</body>
+
+</html>
