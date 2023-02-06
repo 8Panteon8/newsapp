@@ -4,5 +4,5 @@ _This is a small app for finding news around the world with filtering by topic o
 
 # Used
 
-- [materializecss](https://materializecss.com)
+- [Materializecss](https://materializecss.com)
 - [New API](https://newsapi.org)
